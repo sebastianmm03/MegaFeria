@@ -13,9 +13,12 @@ public class Main {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        System.out.println("Hola mundo");
-        System.out.println("Buenas tardes");
 
+        System.out.println("Hola mundo");
+        int a = 5;
+        int b = 10;
+        System.out.println((a<<1) == b);
+        System.out.println("This is a conflict");
     }
     
 }
